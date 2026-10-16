@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undangan Pernikahan Syahril & Imas</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Georgia', serif; background-color: #f7f5f0; color: #4a4a4a; margin: 0; padding: 20px; text-align: center; }
+    .container { background: #ffffff; padding: 40px 25px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); max-width: 480px; margin: 20px auto; border: 1px solid #e2d7c5; }
+    .header-title { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; color: #8c7355; margin-bottom: 10px; }
+    h1 { color: #8c7355; font-size: 26px; margin: 10px 0; font-weight: normal; }
+    .amp { font-size: 24px; color: #b89b72; margin: 5px 0; }
+    .parents { font-size: 13px; color: #777; margin-bottom: 20px; }
+    .quote { font-style: italic; font-size: 13px; color: #666; background: #faf8f5; padding: 15px; border-radius: 10px; margin: 25px 0; line-height: 1.6; border-left: 3px solid #b89b72; }
+    .event-card { background: #faf8f5; padding: 20px; border-radius: 12px; margin-top: 20px; border: 1px dashed #d8c8b0; }
+    .event-title { font-weight: bold; color: #8c7355; margin-bottom: 10px; }
+    .btn-rsvp { display: inline-block; background-color: #8c7355; color: #ffffff; text-decoration: none; padding: 12px 30px; border-radius: 25px; font-size: 14px; margin-top: 25px; border: none; cursor: pointer; }
+    .btn-rsvp:hover { background-color: #6e5940; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header-title">Undangan Pernikahan</div>
+    
+    <div class="quote">
+      "Dan di antara tanda-tanda kebesaran-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepada-Nya..."<br>
+      <b>— QS. Ar-Rum: 21</b>
+    </div>
+
+    <h1>Achmad Syahril</h1>
+    <div class="parents">Putra dari Bapak Sumadi & Ibu Indrawati</div>
+
+    <div class="amp">&</div>
+
+    <h1>Imas Siti Wardah</h1>
+    <div class="parents">Putri dari Bapak Heri Susanto & Ibu Nurhasanah</div>
+
+    <hr style="border: 0; height: 1px; background: #e2d7c5; margin: 30px 0;">
+
+    <div class="event-card">
+      <div class="event-title">🗓️ WAKTU & LOKASI</div>
+      <p><b>Minggu, 31 Januari 2027</b></p>
+      <p style="font-size: 14px; margin: 5px 0;">💍 Akad Nikah: 08.00 WIB</p>
+      <p style="font-size: 14px; margin: 5px 0;">🎉 Resepsi: 11.00 WIB - Selesai</p>
+      <hr style="border: 0; border-top: 1px solid #ddd; margin: 15px 0;">
+      <p style="font-size: 14px; color: #555;">📍 <b>Alamat Lokasi:</b><br>Kp. Patala RT 02 / RW 08, Desa Sindangpanon</p>
+    </div>
+
+    <!-- Pemutar Audio Musik Asmalibrasi -->
+    <iframe width="0" height="0" src="https://www.youtube.com/embed/cQGfLDnmWS8?autoplay=1&loop=1&playlist=cQGfLDnmWS8" frameborder="0" allow="autoplay"></iframe>
+
+    <button class="btn-rsvp" onclick="alert('Terima kasih atas doa restu Anda!')">Kirim Doa & Restu</button>
+  </div>
+
+</body>
+</html>
